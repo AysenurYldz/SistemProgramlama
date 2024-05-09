@@ -97,7 +97,8 @@ if __name__ == "__main__":
 
 ## Program Açıklaması
 
-Bu Python programı, bir SIC/XE assembly programındaki sembollerin bellek adreslerini hesaplayarak sembol tablosunu oluşturur. İşlevselliğini adım adım açıklamak için aşağıdaki adımları takip edebiliriz:
+Bu Python programı, bir SIC/XE assembly programındaki sembollerin bellek adreslerini hesaplayarak sembol tablosunu oluşturur. 
+İşlevselliğini adım adım açıklamak için aşağıdaki adımları takip edebiliriz:
 
 sembol_tablosu_olustur fonksiyonu, girdi olarak aldığı dosyadaki SIC/XE assembly kodunu işleyerek sembol tablosunu oluşturur.
 sembol_tablosu adlı boş bir sözlük oluşturulur. Bu sözlük, sembollerin bellek adreslerini saklamak için kullanılacaktır.
