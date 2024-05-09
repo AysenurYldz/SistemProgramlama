@@ -10,20 +10,13 @@ ara dosyaya yazarak programın başlangıç ve bitiş adreslerini belirler.
 Programı çalıştırmak için terminal üzerinden programın olduğu dosyaı kaynak alıp main.py dosyasını çalıştırın.
 
 # Örnek Kullanım
-
+```python
 (base)bt@a$ conda actıvate env1
 (base)bt@a$ python3 main.py
 Lütfen girdi dosyasının adını giriniz: girdi.txt
 Sembol tablosu oluşturuldu
-
-
-```python
-try:
-    program_uzunlugu = sembol_tablosu_olustur('girdi.txt')
-    print(f'Program Uzunluğu: {program_uzunlugu}')
-except Exception as hata:
-    print(f'Hata: {hata}')
 ```
+
 Program, sembol tablosunu oluşturacak ve sembol_tablosu.txt dosyasına yazacaktır. Ayrıca, ara dosya ara_dosya.txt içinde geçici bir işlem dosyası oluşturacaktır.
 
 ```python
