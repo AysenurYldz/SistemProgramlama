@@ -1,0 +1,10 @@
+FIRST    START    1000
+         LDA      FIRST
+         STA      ALPHA
+         LDCH     #5
+         STCH     C1
+         J        LOOP
+ALPHA    BYTE     C'EOF'
+C1       RESB     1
+LOOP     J        LOOP
+         END      FIRST
