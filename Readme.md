@@ -129,6 +129,7 @@ ALPHA    BYTE     C'EOF'
 C1       RESB     1
 LOOP     J        LOOP
          END      FIRST
+```
 		 
 START 1000: Programın başlangıç adresini belirtir. Bellek boyutu üzerinde bir etkisi yoktur.
 LDA FIRST: FIRST etiketindeki bellek hücresindeki değeri yükler ve akümülatöre (A) kaydeder. Bu bir Format 3 komutudur (3 byte).
@@ -141,7 +142,7 @@ C1 RESB 1: C1 etiketine 1 byte'lık boş bellek alanı ayrılır.
 LOOP J LOOP: Programı tekrar LOOP etiketine atlar, sonsuz bir döngü oluşturur. Bu da bir Format 3 komutudur (3 byte).
 END FIRST: Programın sonunu belirtir. Bellek boyutu üzerinde bir etkisi yoktur.		 
 		 
-```
+
 ## Çıktı
 Program, sembol tablosunu ve ara dosyayı oluşturacak ve çıktı olarak program uzunluğunu verecektir. Ayrıca, oluşturulan 
 sembol tablosu sembol_tablosu.txt dosyasına yazılacaktır. Ara dosya, geçici bir işlem dosyasıdır ve kullanıcı tarafından kullanılmaz.
